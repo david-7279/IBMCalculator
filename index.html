@@ -7,9 +7,106 @@
   <title>IBM Calculator</title>
 </head>
 <body>
+  <header>
+    <h1>Achieve Your Healthy Goals</h1>
+    <h3>Calculate Your BMI Instantly</h3>
+  </header>
+
   <main>
+    <div class="container">
+
     
+    <div class="card">
+      <div class="field">
+        <p>Your weight</p>
+        <input type="number" id="weight" placeholder="Enter your weight in kg">
+      </div>
+      <div class="field">
+        <p>Your height</p>
+        <input type="number" id="height" placeholder="Enter your height in cm">
+      </div>
+
+      <button id="calculate">Calculate</button>
+    </div>
+
+    <div class="card">
+      <div class="image">
+        <img src="./assets/images/CoffeCupLifting.png" alt="Cupcake weight lifting">
+      </div>
+
+      <div class="result">
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Less than 18,5</p>
+          </div>
+          <div class="right">
+            <p>Underweight</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Between 18,5 and 24,9</p>
+          </div>
+          <div class="right">
+            <p>Normal weight</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Between 25 and 29,9</p>
+          </div>
+          <div class="right">
+            <p>Overweight</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Between 30 and 34,9</p>
+          </div>
+          <div class="right">
+            <p>Obesity Grade I</p>
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Between 35 and 34,9</p>
+          </div>
+          <div class="right">
+            <p>Obesity Grade II</p>
+          </div>
+        </div>
+        
+        <div class="content">
+          <div class="left">
+            <div class="dot"></div>
+            <p>Greather than 40</p>
+          </div>
+          <div class="right">
+            <p>Obesity Grade III</p>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
   </main>
+
+  <footer>
+    <div class="line"></div>
+
+    <div class="information">
+      <p>Take control of your health by knowing your BMI. Our calculator is designed to provide you with accurate and instant results, helping you to stay informed and make better lifestyle choices. Your journey to a healthier you begins here.</p>
+    </div>
+  </footer>
 
   <script src="./assets/js/script.js"></script>
 </body>
